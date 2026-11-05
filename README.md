@@ -6,6 +6,19 @@ Offizieller, verbindlicher Design-, Typografie-, Layout- und Komponenten-Leitfad
 - **Master-Template im Workspace:** `00_dummy` (`Website/src/styles/global.css` & `.agents/rules/`)
 - **Grundprinzip:** Sauber, edel, minimalistisch, intrinsisch – `0 %` Glasmorphismus, `0` HTML-Inline-Styles, `0` Utility-Bloat (Smell-Code), `100 %` WCAG 2.2 AA & Privacy by Design.
 
+## Inhalt dieses Repositories
+
+- [`SKILL.md`](SKILL.md) – Direkt ladbare KI-Agenten-Skill-Definition (`myquests-design-system`)
+- [`styles/global.css`](styles/global.css) – Vollständiges Referenz-Stylesheet (Tailwind CSS v4 `@theme` Tokens & semantische Komponentenklassen)
+- [`scripts/audit_rules_compliance.py`](scripts/audit_rules_compliance.py) – Deterministisches Prüfskript zur automatisierten Durchsetzung aller Design- und Typografieregeln
+- **Modulare Design-Detailregeln (`rules/`):**
+  - [`rules/02_VERBOT_VON_INLINE_STYLES.md`](rules/02_VERBOT_VON_INLINE_STYLES.md)
+  - [`rules/07_BARRIEREFREIHEIT_UND_DESIGN_SYSTEM.md`](rules/07_BARRIEREFREIHEIT_UND_DESIGN_SYSTEM.md)
+  - [`rules/09_VISUELLER_FLOW_UND_DESIGN_SORGFALT.md`](rules/09_VISUELLER_FLOW_UND_DESIGN_SORGFALT.md)
+  - [`rules/12_VERMEIDUNG_GENERIC_STOCK_AI_UI_PATTERNS.md`](rules/12_VERMEIDUNG_GENERIC_STOCK_AI_UI_PATTERNS.md)
+  - [`rules/16_INTRINSISCHES_UND_RESPONSIVES_DESIGN.md`](rules/16_INTRINSISCHES_UND_RESPONSIVES_DESIGN.md)
+  - [`rules/22_TYPOGRAFIE_SPRACHE_UND_COPYWRITING_VERBOTE.md`](rules/22_TYPOGRAFIE_SPRACHE_UND_COPYWRITING_VERBOTE.md)
+
 ---
 
 ## 1. Design-Philosophie & Visuelle Identität
